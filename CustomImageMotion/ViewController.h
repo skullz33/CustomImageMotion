@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+  //  CMMotionManager *motionManager;
+    float rotation;
+}
+
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+//@property (retain, nonatomic) IBOutlet UIImageView *imageView2;
+@property (retain, nonatomic) IBOutlet UILabel *imageMarker;
+//@property (retain, nonatomic) IBOutlet UILabel *imageMarker2;
+//@property (nonatomic) CGAffineTransform markerTransform;
 
 @end

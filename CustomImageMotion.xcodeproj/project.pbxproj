@@ -21,6 +21,16 @@
 		D99F16CE1842A773001BD49E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F16B01842A773001BD49E /* UIKit.framework */; };
 		D99F16D61842A773001BD49E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99F16D41842A773001BD49E /* InfoPlist.strings */; };
 		D99F16D81842A773001BD49E /* CustomImageMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F16D71842A773001BD49E /* CustomImageMotionTests.m */; };
+		D99F16E21842A7BC001BD49E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F16E11842A7BC001BD49E /* CoreMotion.framework */; };
+		D99F16E41842A7CB001BD49E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F16E31842A7CB001BD49E /* QuartzCore.framework */; };
+		D99F16E61842A7D2001BD49E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F16E51842A7D2001BD49E /* OpenGLES.framework */; };
+		D99F16E81842A7D8001BD49E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F16E71842A7D8001BD49E /* AssetsLibrary.framework */; };
+		D99F16EA1842A7DF001BD49E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F16E91842A7DF001BD49E /* AVFoundation.framework */; };
+		D99F16ED1842AA05001BD49E /* ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F16EC1842AA05001BD49E /* ARView.m */; };
+		D99F16F01842AB1C001BD49E /* MovingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F16EF1842AB1C001BD49E /* MovingImage.m */; };
+		D99F16F21842B1FF001BD49E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F16F11842B1FF001BD49E /* Default-568h@2x.png */; };
+		D99F16F81842B485001BD49E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F16F71842B485001BD49E /* image.png */; };
+		D9DF680D18458FCD00E15FDF /* Ideal-landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9DF680C18458FCD00E15FDF /* Ideal-landscape.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,18 @@
 		D99F16D31842A773001BD49E /* CustomImageMotionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomImageMotionTests-Info.plist"; sourceTree = "<group>"; };
 		D99F16D51842A773001BD49E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D99F16D71842A773001BD49E /* CustomImageMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomImageMotionTests.m; sourceTree = "<group>"; };
+		D99F16E11842A7BC001BD49E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D99F16E31842A7CB001BD49E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D99F16E51842A7D2001BD49E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D99F16E71842A7D8001BD49E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D99F16E91842A7DF001BD49E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D99F16EB1842AA05001BD49E /* ARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARView.h; sourceTree = "<group>"; };
+		D99F16EC1842AA05001BD49E /* ARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARView.m; sourceTree = "<group>"; };
+		D99F16EE1842AB1C001BD49E /* MovingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingImage.h; sourceTree = "<group>"; };
+		D99F16EF1842AB1C001BD49E /* MovingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingImage.m; sourceTree = "<group>"; };
+		D99F16F11842B1FF001BD49E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "CustomImageMotion/Default-568h@2x.png"; sourceTree = "<group>"; };
+		D99F16F71842B485001BD49E /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		D9DF680C18458FCD00E15FDF /* Ideal-landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ideal-landscape.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99F16EA1842A7DF001BD49E /* AVFoundation.framework in Frameworks */,
+				D99F16E81842A7D8001BD49E /* AssetsLibrary.framework in Frameworks */,
+				D99F16E61842A7D2001BD49E /* OpenGLES.framework in Frameworks */,
+				D99F16E41842A7CB001BD49E /* QuartzCore.framework in Frameworks */,
+				D99F16E21842A7BC001BD49E /* CoreMotion.framework in Frameworks */,
 				D99F16AF1842A773001BD49E /* CoreGraphics.framework in Frameworks */,
 				D99F16B11842A773001BD49E /* UIKit.framework in Frameworks */,
 				D99F16AD1842A773001BD49E /* Foundation.framework in Frameworks */,
@@ -82,6 +109,9 @@
 		D99F16A01842A773001BD49E = {
 			isa = PBXGroup;
 			children = (
+				D99F16F11842B1FF001BD49E /* Default-568h@2x.png */,
+				D99F16F71842B485001BD49E /* image.png */,
+				D9DF680C18458FCD00E15FDF /* Ideal-landscape.jpg */,
 				D99F16B21842A773001BD49E /* CustomImageMotion */,
 				D99F16D11842A773001BD49E /* CustomImageMotionTests */,
 				D99F16AB1842A773001BD49E /* Frameworks */,
@@ -101,6 +131,11 @@
 		D99F16AB1842A773001BD49E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D99F16E91842A7DF001BD49E /* AVFoundation.framework */,
+				D99F16E71842A7D8001BD49E /* AssetsLibrary.framework */,
+				D99F16E51842A7D2001BD49E /* OpenGLES.framework */,
+				D99F16E31842A7CB001BD49E /* QuartzCore.framework */,
+				D99F16E11842A7BC001BD49E /* CoreMotion.framework */,
 				D99F16AC1842A773001BD49E /* Foundation.framework */,
 				D99F16AE1842A773001BD49E /* CoreGraphics.framework */,
 				D99F16B01842A773001BD49E /* UIKit.framework */,
@@ -115,6 +150,10 @@
 				D99F16BB1842A773001BD49E /* AppDelegate.h */,
 				D99F16BC1842A773001BD49E /* AppDelegate.m */,
 				D99F16BE1842A773001BD49E /* Main.storyboard */,
+				D99F16EB1842AA05001BD49E /* ARView.h */,
+				D99F16EC1842AA05001BD49E /* ARView.m */,
+				D99F16EE1842AB1C001BD49E /* MovingImage.h */,
+				D99F16EF1842AB1C001BD49E /* MovingImage.m */,
 				D99F16C11842A773001BD49E /* ViewController.h */,
 				D99F16C21842A773001BD49E /* ViewController.m */,
 				D99F16C41842A773001BD49E /* Images.xcassets */,
@@ -229,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99F16C51842A773001BD49E /* Images.xcassets in Resources */,
+				D99F16F21842B1FF001BD49E /* Default-568h@2x.png in Resources */,
 				D99F16B71842A773001BD49E /* InfoPlist.strings in Resources */,
+				D9DF680D18458FCD00E15FDF /* Ideal-landscape.jpg in Resources */,
 				D99F16C01842A773001BD49E /* Main.storyboard in Resources */,
+				D99F16F81842B485001BD49E /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99F16F01842AB1C001BD49E /* MovingImage.m in Sources */,
 				D99F16C31842A773001BD49E /* ViewController.m in Sources */,
+				D99F16ED1842AA05001BD49E /* ARView.m in Sources */,
 				D99F16BD1842A773001BD49E /* AppDelegate.m in Sources */,
 				D99F16B91842A773001BD49E /* main.m in Sources */,
 			);
@@ -460,6 +504,7 @@
 				D99F16DD1842A773001BD49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D99F16DE1842A773001BD49E /* Build configuration list for PBXNativeTarget "CustomImageMotionTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +513,7 @@
 				D99F16E01842A773001BD49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
